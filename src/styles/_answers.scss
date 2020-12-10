@@ -107,28 +107,27 @@
             cursor: unset;
         }
 
-        &:not([class*="disabled"]) {
-
-            &:hover {
-                border-color: $orange-100;
-
-                &:before,
-                &:after {
-                    background: $orange-100;
-                }
-
-                .triangle-left {
-                    border-right-color: $orange-100;
-                }
-
-                .triangle-right {
-                    border-left-color: $orange-100;
+        @media screen and (min-width:550px) {
+            &:not([class*="disabled"]) {
+            
+                &:hover {
+                    border-color: $orange-100;
+    
+                    &:before,
+                    &:after {
+                        background: $orange-100;
+                    }
+    
+                    .triangle-left {
+                        border-right-color: $orange-100;
+                    }
+    
+                    .triangle-right {
+                        border-left-color: $orange-100;
+                    }
                 }
             }
         }
-
-
-
 
         &.correct {
             background: $green-5;

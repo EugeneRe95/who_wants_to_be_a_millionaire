@@ -247,7 +247,7 @@ body {
     #status-bar {
       width: 100%;
       position: fixed;
-      overflow-y: scroll;
+      overflow-y: auto;
       top: 0;
       right: -100%;
       transition: all ease-in 400ms;
