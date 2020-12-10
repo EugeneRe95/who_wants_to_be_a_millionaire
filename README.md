@@ -17,7 +17,7 @@ React, Redux, React-Router, SCSS, Rest_API
     - correct - if the answer is correct
 - rate - prize value for specific value
 
-3. User picks the answer and it's status updated to selected/correct/wrong/disabled
+3. User picks the answer and its status updated to selected/correct/wrong/disabled
 
 4. If the answer is correct, the next question is displayed. Otherwise user is redirected to final screen with game score.
 
@@ -25,4 +25,6 @@ React, Redux, React-Router, SCSS, Rest_API
 
 1. Open project folder in terminal
 
-2. Run 'npm start'
+2. Run 'npm install'
+
+3. Run 'npm start'
