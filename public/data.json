@@ -1,0 +1,86 @@
+[
+    {
+    "title":"In the UK, the abbreviation NHS stands for National 'What' Service?",
+    "answers":["Humanity", "Health", "Honour", "Household"],
+    "correctAnswers":["Health"],
+    "status":"",
+    "rate":"100$"
+    },
+    {
+    "title":"Which Disney character famously leaves a glass slipper behind at a royal ball?",
+    "answers":["Pocahontas", "Sleeping Beauty", "Cinderella", "Elsa"],
+    "correctAnswers":["Cinderella"],
+    "status":"",
+    "rate":"200$"
+    },
+    {
+        "title":"What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim? ",
+        "answers":["Hangar", "Terminal", "Concourse", "Carousel"],
+        "correctAnswers":["Carousel"],
+        "status":"",
+        "rate":"300$"
+    },
+    {
+    "title":"Which of these brands was chiefly associated with the manufacture of household locks?",
+    "answers":["Phillips", "Flymo", "Chubb", "Ronseal"],
+    "correctAnswers":["Chubb"],
+    "status":"",
+    "rate":"500$"
+    },
+    {
+    "title":"The hammer and sickle is one of the most recognisable symbols of which political ideology?",
+    "answers":["Republicanism", "Communism", "Conservatism", "Liberalism"],
+    "correctAnswers":["Communism"],
+    "status":"",
+    "rate":"1000$"
+    },
+    {
+    "title":"Which toys have been marketed with the phrase 'Robots in Disguise'? ",
+    "answers":["Bratz Dolls", "Sylvanian Families", "Hatchimals", "Transformers"],
+    "correctAnswers":["Transformers"],
+    "status":"",
+    "rate":"2000$"
+    },
+    {
+    "title":"What does the word loquacious mean?",
+    "answers":["Angry", "Chatty", "Beautiful", "Shy"],
+    "correctAnswers":["Chatty"],
+    "status":"",
+    "rate":"4000$"
+    },
+    {
+    "title":"Obstetrics is a branch of medicine particularly concerned with what?",
+    "answers":["Childbirth", "Broken bones", "Heart conditions", "Old age"],
+    "correctAnswers":["Childbirth"],
+    "status":"",
+    "rate":"8000$"
+    },
+    {
+    "title":"In Doctor Who, what was the signature look of the fourth Doctor, as portrayed by Tom Baker?",
+    "answers":["Bow-tie, braces & tweed jacket", "Wide-brimmed hat & extra long scarf", "Pinstripe suit & trainers", "Cape, velvet jacket & frilly shirt"],
+    "correctAnswers":["Wide-brimmed hat & extra long scarf"],
+    "status":"",
+    "rate":"16000$"
+    },
+    {
+    "title":"Which of these religious observances lasts for the shortest period of time during the calendar year?",
+    "answers":["Ramadan", "Diwali", "Lent", "Hanukkah"],
+    "correctAnswers":["Diwali"],
+    "status":"",
+    "rate":"32000$"
+    },
+    {
+    "title":"At the closest point, which island group is only 50 miles south-east of the coast of Florida?",
+    "answers":["Bahamas", "US Virgin Islands", "Turks and Caicos Islands", "Bermuda"],
+    "correctAnswers":["Bahamas"],
+    "status":"",
+    "rate":"64000$"
+    },
+    {
+    "title":"Construction of which of these famous landmarks was completed first? ",
+    "answers":["Empire State Building", "Royal Albert Hall", "Eiffel Tower", "Big Ben Clock Tower"],
+    "correctAnswers":["Big Ben Clock Tower"],
+    "status":"",
+    "rate":"125000$"
+    }
+]
