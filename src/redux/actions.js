@@ -3,7 +3,7 @@ import { COUNTER, FETCH_DATA, FINISH_GAME, SET_STATUS, SHOW_SPINNER, TOGGLE_MENU
 
 export function fetchData(){
     return (dispatch) => {
-        axios.get('./who_wants_to_be_a_millionaire/data.json')
+        axios.get('https://eugenere95.github.io/who_wants_to_be_a_millionaire/data.json')
             .then(res => {
                 dispatch ({type: FETCH_DATA, payload: res.data})
             })
