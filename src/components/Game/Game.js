@@ -7,6 +7,7 @@ import {Redirect} from 'react-router-dom'
 import '@fortawesome/fontawesome-free/css/all.css'
 import Spinner from '../Spinner'
 import MenuControl from '../MenuControl'
+import FetchStatus from '../FetchStatus'
 
 function Game({questions, counter, gameEnd, menu, fetchData, changeQuestion}) {
 
@@ -21,10 +22,14 @@ function Game({questions, counter, gameEnd, menu, fetchData, changeQuestion}) {
     } else {
         return (
             <section id="game" className={menu ? 'active' : ''}>
-                <Spinner />
-                <Quiz questions={questions} counter={counter} />
-                <StatusBar questions={questions} counter={counter} />
-                <MenuControl />
+                {!questions ? <FetchStatus /> :
+                <>
+                    <Spinner />
+                    <Quiz questions={questions} counter={counter} />
+                    <StatusBar questions={questions} counter={counter} />
+                    <MenuControl />
+                </>
+                }
             </section>
         )
     }

@@ -1,0 +1,36 @@
+$orange-120: #E87928;
+$orange-100:#FF8B37;
+$orange-80:#FFAC70;
+$orange-5:#FFF3EB;
+$white-100:#FFFFFF;
+
+.btn {
+  display: block;
+  width: 100%;
+  max-width: 296px;
+  font-size: 14px;
+  background: $orange-100;
+  border-radius: 12px;
+  padding: 14px 0;
+  color: $white-100;
+  text-align: center;
+
+  transition: all ease-in-out 250ms;
+
+  &:active {
+    background: $orange-120;
+  }
+
+  @media screen and (min-width:555px) {
+    padding: 24px 0;
+    font-size: 20px;
+
+    &:hover {
+      background: $orange-80;
+    }
+  }
+
+  @media screen and (min-width:2500px) {
+    font-size: 34px;
+  }
+}

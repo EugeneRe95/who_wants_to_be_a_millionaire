@@ -1,86 +1,314 @@
 [
     {
     "title":"In the UK, the abbreviation NHS stands for National 'What' Service?",
-    "answers":["Humanity", "Health", "Honour", "Household"],
-    "correctAnswers":["Health"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Humanity",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Health",
+            "status": "",
+            "correct": true
+        },
+        {
+            "title": "Honour",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Household",
+            "status": "",
+            "correct": false
+        }
+    ],
     "rate":"100$"
     },
     {
     "title":"Which Disney character famously leaves a glass slipper behind at a royal ball?",
-    "answers":["Pocahontas", "Sleeping Beauty", "Cinderella", "Elsa"],
-    "correctAnswers":["Cinderella"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Pocahontas",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Sleeping Beauty",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Cinderella",
+            "status": "",
+            "correct": true
+        },
+        {
+            "title": "Elsa",
+            "status": "",
+            "correct": false
+        }
+    ],
     "rate":"200$"
     },
     {
         "title":"What name is given to the revolving belt machinery in an airport that delivers checked luggage from the plane to baggage reclaim? ",
-        "answers":["Hangar", "Terminal", "Concourse", "Carousel"],
-        "correctAnswers":["Carousel"],
-        "status":"",
+        "answers":[
+        {
+            "title": "Hangar",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Terminal",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Concourse",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Carousel",
+            "status": "",
+            "correct": true
+        }
+    ],
         "rate":"300$"
     },
     {
     "title":"Which of these brands was chiefly associated with the manufacture of household locks?",
-    "answers":["Phillips", "Flymo", "Chubb", "Ronseal"],
-    "correctAnswers":["Chubb"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Phillips",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Flymo",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Chubb",
+            "status": "",
+            "correct": true
+        },
+        {
+            "title": "Ronseal",
+            "status": "",
+            "correct": false
+        }
+    ],
     "rate":"500$"
     },
     {
     "title":"The hammer and sickle is one of the most recognisable symbols of which political ideology?",
-    "answers":["Republicanism", "Communism", "Conservatism", "Liberalism"],
-    "correctAnswers":["Communism"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Republicanism",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Communism",
+            "status": "",
+            "correct": true
+        },
+        {
+            "title": "Conservatism",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Liberalism",
+            "status": "",
+            "correct": false
+        }
+    ],
     "rate":"1000$"
     },
     {
     "title":"Which toys have been marketed with the phrase 'Robots in Disguise'? ",
-    "answers":["Bratz Dolls", "Sylvanian Families", "Hatchimals", "Transformers"],
-    "correctAnswers":["Transformers"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Bratz Dolls",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Sylvanian Families",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Hatchimals",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Transformers",
+            "status": "",
+            "correct": true
+        }
+    ],
     "rate":"2000$"
     },
     {
     "title":"What does the word loquacious mean?",
-    "answers":["Angry", "Chatty", "Beautiful", "Shy"],
-    "correctAnswers":["Chatty"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Angry",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Chatty",
+            "status": "",
+            "correct": true
+        },
+        {
+            "title": "Beautiful",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Shy",
+            "status": "",
+            "correct": false
+        }
+    ],
     "rate":"4000$"
     },
     {
     "title":"Obstetrics is a branch of medicine particularly concerned with what?",
-    "answers":["Childbirth", "Broken bones", "Heart conditions", "Old age"],
-    "correctAnswers":["Childbirth"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Childbirth",
+            "status": "",
+            "correct": true
+        },
+        {
+            "title": "Broken bones",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Heart conditions",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Old age",
+            "status": "",
+            "correct": false
+        }
+    ],
     "rate":"8000$"
     },
     {
     "title":"In Doctor Who, what was the signature look of the fourth Doctor, as portrayed by Tom Baker?",
-    "answers":["Bow-tie, braces & tweed jacket", "Wide-brimmed hat & extra long scarf", "Pinstripe suit & trainers", "Cape, velvet jacket & frilly shirt"],
-    "correctAnswers":["Wide-brimmed hat & extra long scarf"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Bow-tie, braces & tweed jacket",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Wide-brimmed hat & extra long scarf",
+            "status": "",
+            "correct": true
+        },
+        {
+            "title": "Pinstripe suit & trainers",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Cape, velvet jacket & frilly shirt",
+            "status": "",
+            "correct": false
+        }
+    ],
     "rate":"16000$"
     },
     {
     "title":"Which of these religious observances lasts for the shortest period of time during the calendar year?",
-    "answers":["Ramadan", "Diwali", "Lent", "Hanukkah"],
-    "correctAnswers":["Diwali"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Ramadan",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Diwali",
+            "status": "",
+            "correct": true
+        },
+        {
+            "title": "Lent",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Hanukkah",
+            "status": "",
+            "correct": false
+        }
+    ],
     "rate":"32000$"
     },
     {
     "title":"At the closest point, which island group is only 50 miles south-east of the coast of Florida?",
-    "answers":["Bahamas", "US Virgin Islands", "Turks and Caicos Islands", "Bermuda"],
-    "correctAnswers":["Bahamas"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Bahamas",
+            "status": "",
+            "correct": true
+        },
+        {
+            "title": "US Virgin Islands",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Turks and Caicos Islands",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Bermuda",
+            "status": "",
+            "correct": false
+        }
+    ],
     "rate":"64000$"
     },
     {
     "title":"Construction of which of these famous landmarks was completed first? ",
-    "answers":["Empire State Building", "Royal Albert Hall", "Eiffel Tower", "Big Ben Clock Tower"],
-    "correctAnswers":["Big Ben Clock Tower"],
-    "status":"",
+    "answers":[
+        {
+            "title": "Empire State Building",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Royal Albert Hall",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Eiffel Tower",
+            "status": "",
+            "correct": false
+        },
+        {
+            "title": "Big Ben Clock Tower",
+            "status": "",
+            "correct": true
+        }
+    ],
     "rate":"125000$"
     }
 ]

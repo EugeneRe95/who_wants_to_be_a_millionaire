@@ -7,17 +7,14 @@ function Quiz(props) {
     return (
         <section id="quiz">
             <div className="container">
-                {!props.questions ? 
-                <h2>Loading...</h2> :
-                <>
+                
                     <h3 key={props.questions[props.counter].title} className="animate__animated animate__fadeIn">{props.questions[props.counter].title}</h3>
                     <div className="answers">
                         {props.questions[props.counter].answers.map((item, index)=>(
-                            <AnswerItem key={item} content={item} marker={alphabet[index].toUpperCase()} title={props.questions[props.counter].title} delay={`${100 * index}ms`} />
+                            <AnswerItem key={item.title} content={item.title} status={item.status} index={index} marker={alphabet[index].toUpperCase()} question={props.questions[props.counter].title} delay={`${100 * index}ms`} />
                      ))}
                     </div>
-                </>
-                }
+               
             </div>
         </section>
     )

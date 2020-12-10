@@ -1,11 +1,11 @@
 import {
   TOGGLE_MENU,
-  CHECK_ANSWER,
   COUNTER,
   FETCH_DATA,
   FINISH_GAME,
   SET_STATUS,
-  SHOW_SPINNER
+  SHOW_SPINNER,
+  FETCH_ERROR
 } from "./types";
 
 const initialState = {
@@ -13,7 +13,8 @@ const initialState = {
   counter: 0,
   gameEnd: false,
   menu: false,
-  spinner: false
+  spinner: false,
+  dataError: false
 }
 
 export function rootReducer(state = initialState, action) {
@@ -22,6 +23,12 @@ export function rootReducer(state = initialState, action) {
       return {
         ...state,
         menu: !state.menu
+      }
+
+    case FETCH_ERROR:
+      return {
+        ...state,
+        dataError: true
       }
 
     case SHOW_SPINNER:
@@ -51,20 +58,13 @@ export function rootReducer(state = initialState, action) {
     case SET_STATUS:
       return {
         ...state,
-        questions: state
-          .questions
-          .map(item => {
+        questions: state.questions.map(item => {
             if (item.title === action.payload[0]) {
-              return {title: item.title, answers: item.answers, correctAnswers: item.correctAnswers, status: action.payload[1], rate: item.rate}
+              return {title: item.title, answers: action.payload[1], rate: item.rate}
             } else {
               return item
             }
           })
-      }
-
-    case CHECK_ANSWER:
-      return {
-        ...state
       }
 
     default:

@@ -7,7 +7,7 @@ function MenuControl({menu, toggleMenu}) {
         toggleMenu()
     }
     return (
-        <div className="menu-control" onClick={menuVisibility}>
+        <div id="menu-control" onClick={menuVisibility}>
             {menu ? <i className="fas fa-times"></i>  : <i className="fas fa-bars"></i>}
         </div>
     )

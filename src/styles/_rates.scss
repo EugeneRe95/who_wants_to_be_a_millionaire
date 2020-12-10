@@ -1,0 +1,126 @@
+.rates {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  width: 100%;
+  margin: auto;
+
+  .rate {
+    width: 80%;
+    font-size: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 0;
+    border-bottom: 1px solid $black-40;
+    border-top: 1px solid $black-40;
+    position: relative;
+
+    &.passed {
+      color: $black-40;
+    }
+
+    &.active {
+      border-color: $orange-100;
+      color: $orange-100;
+
+      &:before,
+      &:after {
+        background: $orange-100;
+      }
+
+      .triangle-left {
+        border-right-color: $orange-100;
+      }
+
+      .triangle-right {
+        border-left-color: $orange-100;
+      }
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      height: 1px;
+      width: 300px;
+      left: -320px;
+      background: $black-40;
+
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      height: 1px;
+      width: 300px;
+      right: -320px;
+      background: $black-40;
+    }
+
+    .triangle-right {
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-left: 20px solid $black-40;
+      border-bottom: 20px solid transparent;
+      position: absolute;
+      right: -20px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        top: -18px;
+        width: 0;
+        height: 0;
+        border-top: 18px solid transparent;
+        border-left: 19px solid $white-100;
+        border-bottom: 18px solid transparent;
+        position: absolute;
+        left: -20px;
+      }
+    }
+
+    .triangle-left {
+      width: 0;
+      height: 0;
+      border-top: 20px solid transparent;
+      border-right: 20px solid $black-40;
+      border-bottom: 20px solid transparent;
+      position: absolute;
+      left: -20px;
+
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        right: -20px;
+        top: -18px;
+        width: 0;
+        height: 0;
+        border-top: 18px solid transparent;
+        border-right: 19px solid $white-100;
+        border-bottom: 18px solid transparent;
+      }
+    }
+  }
+
+  @media screen and (min-width:2500px) {
+    .rate {
+      font-size: 32px;
+      margin: 20px 0;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .rate {
+      font-size: 14px;
+    }
+  }
+}
