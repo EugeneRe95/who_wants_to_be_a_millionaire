@@ -1,4 +1,4 @@
-# Task manager app
+# Who wants to be a millionaire
 http://eugenere95.github.io/who_wants_to_be_a_millionaire
 
 ## Technologies
