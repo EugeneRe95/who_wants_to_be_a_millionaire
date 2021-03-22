@@ -1,0 +1,7 @@
+export const FETCH_DATA = "DATA/FETCH_DATA"
+export const COUNTER = "COUNTER"
+export const FINISH_GAME = "GAME/FINISH_GAME"
+export const SET_STATUS = "STATUS/SET_STATUS"
+export const TOGGLE_MENU = "MENU/TOGGLE_MENU"
+export const SHOW_SPINNER = "SPINNER/SHOW_SPINNER"
+export const FETCH_ERROR = "FETCH/FETCH_ERROR"
